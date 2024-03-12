@@ -1,0 +1,42 @@
+body {
+    font-size: 10pt;
+}
+
+.table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x: auto; /* Permite desplazamiento horizontal si es necesario */
+}
+
+.table th,
+.table td {
+    padding: 8px;
+    text-align: left;
+    max-width: 50px; /* Establece un ancho máximo para las celdas */
+    word-wrap: break-word; /* Permite que el texto se divida y se ajuste al ancho de la celda */
+    white-space: normal; /* Permite saltos de línea si el contenido es demasiado largo */
+    overflow: hidden;
+}
+
+
+.table th {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+
+.table td {
+    background-color: #fff;
+    color: #000;
+    word-wrap: break-word;
+}
+
+.table tr:nth-child(even) td {
+    background-color: #f2f2f2;
+}
+
+.table tr:hover td {
+    background-color: #ccc;
+    color: #fff;
+}

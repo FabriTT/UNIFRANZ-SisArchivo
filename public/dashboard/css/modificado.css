@@ -1,0 +1,83 @@
+.bg-logo {
+    background: #222222 !important;
+}
+
+
+.bg-header {
+    background: #222222 !important;
+}
+
+.bg-contenido {
+    background: rgba(34, 34, 34, 0.6) !important;
+}
+
+.contenido-header {
+    background: rgba(128, 128, 128, 0.1) !important;
+    color: white !important;
+}
+
+.herramientas {
+    /*margin-left: 5px;
+    margin-right: 5px;*/
+    margin: 5px 5px 0 5px;
+}
+
+.form-control {
+    border: 1px solid black;
+    /* Cambia #ff0000 al color que desees */
+}
+
+.rojo {
+    background-color: #e65856 !important;
+}
+
+.amarillo {
+    background-color: #f6f666 !important;
+}
+
+.error-container {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+
+
+
+.scroll {
+    max-height: 30vh;
+    /* Ajusta la altura máxima según tus necesidades */
+    overflow-y: auto;
+}
+
+.swal-button--confirm{
+    background-color: #28A745; /* Código de color amarillo personalizado */
+    color: #FFFFFF; /* Color del texto en el botón */
+    padding: 8px 16px; /* Ajustar el espaciado interno del botón */
+    margin: 5px; /* Ajustar los márgenes del botón */
+    border: 1px solid #cccccc; /* Añadir un borde al botón */
+    border-radius: 4px; /* Añadir esquinas redondeadas al botón */
+  }
+
+.swal-button--deny{
+  background-color: #007BFF; /* Código de color verde personalizado */
+  color: #FFFFFF; /* Color del texto en el botón */
+  padding: 8px 16px; /* Ajustar el espaciado interno del botón */
+  margin: 5px; /* Ajustar los márgenes del botón */
+  border: 1px solid #cccccc; /* Añadir un borde al botón */
+  border-radius: 4px; /* Añadir esquinas redondeadas al botón */
+}
+
+
+.swal-button--cancel{
+    background-color: #17a2b8; /* Código de color verde personalizado */
+    color: #FFFFFF; /* Color del texto en el botón */
+    padding: 8px 16px; /* Ajustar el espaciado interno del botón */
+    margin: 5px; /* Ajustar los márgenes del botón */
+    border: 1px solid #cccccc; /* Añadir un borde al botón */
+    border-radius: 4px; /* Añadir esquinas redondeadas al botón */
+  }
+  
+
