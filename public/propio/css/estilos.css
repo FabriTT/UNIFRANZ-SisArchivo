@@ -1,0 +1,124 @@
+/* Estilos para todas las barras de desplazamiento */
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #888;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #f5f5f5;
+  }
+  
+  ::-webkit-scrollbar-track:hover {
+    background-color: #f1f1f1;
+  }
+
+  
+
+  /* Estilo para los campos de entrada de tipo texto */
+.input-text {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Estilo para los campos de entrada de tipo fecha */
+.input-date {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Estilo para mostrar el calendario en campos de entrada de tipo fecha */
+.input-date::-webkit-calendar-picker-indicator {
+  padding: 4px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #777;
+}
+
+.input-date::-webkit-inner-spin-button {
+  display: none;
+}
+
+
+/* Estilo para el elemento de selección */
+.select {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.select:focus {
+  outline: none;
+  border-color: #8e8e8e;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para las opciones del elemento de selección */
+.select option {
+  padding: 8px;
+}
+
+
+/* Estilo para las etiquetas */
+.label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+
+
+#map {
+	height: 500px;
+	width: 100%;
+}
+
+
+.swal-button-color-amarillo {
+  background-color: #28A745; /* Código de color amarillo personalizado */
+  color: #FFFFFF; /* Color del texto en el botón */
+  padding: 8px 16px; /* Ajustar el espaciado interno del botón */
+  margin: 5px; /* Ajustar los márgenes del botón */
+  border: 1px solid #cccccc; /* Añadir un borde al botón */
+  border-radius: 4px; /* Añadir esquinas redondeadas al botón */
+}
+
+.swal-button-color-azul {
+  background-color: #6C757D; /* Código de color azul personalizado */
+  color: #FFFFFF; /* Color del texto en el botón */
+  padding: 8px 16px; /* Ajustar el espaciado interno del botón */
+  margin: 5px; /* Ajustar los márgenes del botón */
+  border: 1px solid #cccccc; /* Añadir un borde al botón */
+  border-radius: 4px; /* Añadir esquinas redondeadas al botón */
+}
+
+.swal-button-color-verde {
+  background-color: #007BFF; /* Código de color verde personalizado */
+  color: #FFFFFF; /* Color del texto en el botón */
+  padding: 8px 16px; /* Ajustar el espaciado interno del botón */
+  margin: 5px; /* Ajustar los márgenes del botón */
+  border: 1px solid #cccccc; /* Añadir un borde al botón */
+  border-radius: 4px; /* Añadir esquinas redondeadas al botón */
+}
+
+
+
