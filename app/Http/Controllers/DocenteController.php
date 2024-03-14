@@ -248,11 +248,11 @@ class DocenteController extends Controller
                     return 'Error en la bsae de datos';
                 }
             } else {
-                return 'Error en la bsae de datos';
+                return 'Error en la bsae de datos'.$e;
             }
         }catch (Exception $e){
             Log::error($e);
-            return 'Error en el servidor';
+            return 'Error en el servidor'.$e;
         }
     }
 
