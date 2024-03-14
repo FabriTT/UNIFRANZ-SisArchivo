@@ -213,7 +213,7 @@ class DocenteController extends Controller
             $docente->Fecha_Nacimiento_doc = $nacimiento;
             $docente->Carnet_doc = $carnet;
             $docente->VencimientoCarnet_doc = $vencimiento;
-            $docente->Id_Nac = $ciudadania;
+            $docente->Id_nac = $ciudadania;
             $docente->Sexo_doc = $sexo;
             $docente->Direccion_doc = ucwords(strtolower($direccion));
             $docente->CorreoPersonal_doc = $correoPersonal;
