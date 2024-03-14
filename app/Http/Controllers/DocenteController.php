@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\DB;
 use Maatwebsite\Excel\Facades\Excel;
 use Barryvdh\DomPDF\Facade\Pdf;
 use App\Models\Nacionalidad;
+use Exception;
 use Illuminate\Database\QueryException;
 use Illuminate\Support\Facades\Log;
 
@@ -249,6 +250,9 @@ class DocenteController extends Controller
             } else {
                 return 'Error en la bsae de datos';
             }
+        }catch (Exception $e){
+            Log::error($e);
+            return 'Error en el servidor';
         }
     }
 
