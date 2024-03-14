@@ -3,6 +3,8 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+
+use App\Models\User;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -18,7 +20,7 @@ class DatabaseSeeder extends Seeder
             RoleSeeder::class,  
         ]);
         
-        \App\Models\User::factory()->create([
+        User::create([
             'name' => 'Fabricio',
             'paterno' => 'Torrez',
             'materno' => 'Torrez',
@@ -31,7 +33,7 @@ class DatabaseSeeder extends Seeder
             'estado' => '1',
         ])->assignRole('Administrador');
 
-        \App\Models\User::factory()->create([
+        User::create([
             'name' => 'Alan',
             'paterno' => 'Aruni',
             'materno' => 'Zuloaga',
@@ -44,7 +46,7 @@ class DatabaseSeeder extends Seeder
             'estado' => '1',
         ])->assignRole('Escritor');
 
-        \App\Models\User::factory()->create([
+        User::create([
             'name' => 'Diego',
             'paterno' => 'Torrez',
             'materno' => 'Torrez',
