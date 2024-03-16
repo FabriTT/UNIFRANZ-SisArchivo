@@ -30,7 +30,7 @@ function Guardar(ruta, ruta2) {
     validado = validado && validarLetras(materno, contenedor, mensaje);
 
     //validar numeros
-    validado = validado && validarNumeros(carnet, contenedor, mensaje);
+    validado = validado && validarCarnet(carnet, contenedor, mensaje);
     validado = validado && validarNumeros(celular, contenedor, mensaje);
 
     //validar correo
@@ -318,6 +318,22 @@ function validarNumeros(input, contenedor, mensaje) {
         contenedor.style.borderColor = "red";
         mensaje.innerHTML =
             "El campo resaltado en rojo solo acepta numeros y un minimo de 8 digitos";
+        return false;
+    } else {
+        input.style.borderColor = "black";
+        contenedor.style.borderColor = "white";
+        mensaje.innerHTML = "";
+        return true;
+    }
+}
+
+function validarCarnet(input, contenedor, mensaje) {
+    var expresion = /^\d{6,8}$/;
+    if (!expresion.test(input.value)) {
+        input.style.borderColor = "red";
+        contenedor.style.borderColor = "red";
+        mensaje.innerHTML =
+            "El campo resaltado en rojo solo acepta numeros y un minimo de 6 digitos a 8 digitos";
         return false;
     } else {
         input.style.borderColor = "black";
