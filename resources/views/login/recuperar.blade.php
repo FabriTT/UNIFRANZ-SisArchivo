@@ -21,7 +21,7 @@
     <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="{{ asset('login/css/util.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('login/css/main.css') }}">
-
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <!--===============================================================================================-->
 </head>
 

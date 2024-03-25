@@ -106,7 +106,7 @@
                                         <img src="{{ asset('storage/' . auth()->user()->imagen) }}" alt="image profile"
                                             class="avatar-img rounded">
                                     @else
-                                        <img src="{{ asset('storage/PERFILES/defecto.png') }}" alt="imagen por defecto"
+                                        <img src="{{ asset('dashboard/img/defecto.png') }}" alt="imagen por defecto"
                                             class="avatar-img rounded">
                                     @endif
                                 </div>
@@ -154,7 +154,7 @@
                                 <img src="{{ asset('storage/' . auth()->user()->imagen) }}" alt="image profile"
                                     class="avatar-img rounded">
                             @else
-                                <img src="{{ asset('storage/PERFILES/defecto.png') }}" alt="imagen por defecto"
+                                <img src="{{ asset('dashboard/img/defecto.png') }}" alt="imagen por defecto"
                                     class="avatar-img rounded">
                             @endif
                         </div>
